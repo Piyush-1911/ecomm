@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+<head>
+<title>Electromart</title>
+<style>
+*{
+margin:0%;
+padding:0%;
+font-family:'Roboto','sans-serif';
+}
+
+body
+{
+Background-color:#eeee;
+}
+nav{
+display:flex;
+justify-content:Space-between;
+background-color:#eeee;
+padding:25px;
+box-shadow:0px 0px 2px 0px rgb(181,179,179);
+}
+body
+{
+}
+ul
+{margin-right:45px;
+}
+nav ul li{
+	list-style:none;
+}
+nav ul li a{
+margin-inline:25px;
+font-size:20px;
+}
+ul li img{
+height:25px;
+}
+nav .logo{
+margin-left:22px;
+font-size:23px;
+font-family:'Roboto';
+}
+
+ul li #home{
+color:rgb(5,167,167);
+}
+ul li #As{
+color:rgb(5,167,167);
+}
+ul li #Cs{
+color:rgb(5,167,167);
+}
+ul li #cat{
+color:rgb(5,167,167);
+}
+ul li a:hover{
+border-bottom:2px solid black;
+cursor:pointer;
+}
+ul li img
+{
+color:grey;
+cursor:pointer;
+}
+
+
+.main
+{
+display:flex;
+justify-content:space-around;
+}
+.main .maintext
+{
+margin-top:100px;
+padding-left:40px;
+
+}
+.maintext h2
+{
+font-size:40px;
+
+}
+.maintext .t{
+
+color:blue;
+}
+
+.maintext button
+{
+width:145px;
+height:40px;
+font-size:22px;
+background-color:rgb(5,167,167);
+border:none;
+}
+
+.maintext button:hover
+{border:2px solid rgb(5,167,167);
+	background-color:white;
+}
+
+.scroll
+{
+display:flex;
+justify-content:space-around;
+}
+
+.scroll button
+{
+
+width:125px;
+height:35px;
+font-size:22px;
+background-color:rgb(3,167,167);
+border:none;
+}
+
+.scroll button:hover
+{
+Background-color:rgb(255,255,255);
+border:1px solid black;
+
+}
+
+.sec
+{
+Background-color:#eeee;
+box-shadow:0px 0px 2px 0px;
+}
+
+.sec h1
+{
+text-align:center;
+font-size:50px;
+font-family:Robato;
+padding:10px 10px 10px 10px;
+
+}
+
+
+.footer
+{
+display:flex;
+justify-content:space-around;
+Background-color:rgb(3,167,167);
+}
+
+</style>
+
+</head>
+<body>
+<nav>
+<div class="logo">
+	<h1>Electromart</h1>
+</div>
+
+<ul>
+<li>
+<div>
+<a href="index.html">Home</a>
+<a href="categories.html">Categories</a>
+<a>About us</a>
+<a>Contact us</a>
+<img src="https://cdn-icons-png.flaticon.com/512/3737/3737372.png " alt="" height="15"></img>
+</li>
+</ul>
+</nav>
+
+
+<!-- MainPage-->
+
+<div class="main">
+<div class="maintext">
+<h2>Electromart</h2>
+<h1 class="t">Super Bumper Sale</h1>
+<h1>On Every Item</h1>
+<p>Each of us is now electronically connected to the globe, and if not connect today</p>
+<br>
+<button>Explore</button>
+</div>
+<img src="https://i.pinimg.com/564x/5f/77/fa/5f77fafa408503adfcf6f269cf92477f.jpg" alt="" height="50%"
+width="50%"></img>
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+
+<div class="sec">
+<h1>Sale on Special Categories<h1>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="scroll">
+<div class="one">
+<img src="https://www.panasonic.com/content/dam/pim/in/en/TH/TH-32J/TH-32J200DX/ast-1570267.png.pub.png?resize=272%3A204" alt="tv" ></img>
+<h2>Smart Tv</h2>
+<button>EXPLORE</button>
+
+
+
+</div>
+
+
+<div class="two">
+<img src="https://www.lg.com/in/images/refrigerators/md07558725/gallery/GL-N382SDSY-Refrigerators-Detailed-View-1-D-02.jpg" alt="tv" width="400" ></img>
+<h2>Refridgerators</h2>
+<button>EXPLORE</button>
+
+</div>
+
+
+
+<div class="three">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK1fKqA9d34JaimfjZ0QSdpn4rUSSNll_Hl3GokjKg4z9MaIaDpRAORelLiQs9pNZNem8&usqp=CAU" alt="tv" ></img>
+<h2>Smartphones</h2>
+<button>EXPLORE</button>
+
+
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!--footer-->
+
+<div class="footer">
+<div class="footertext">
+<h2>Electromart</h2>
+<br>
+<p>Service</p>
+<p>Customers</p>
+<p>Feedback</p>
+
+</div>
+
+
+<div class="footertext">
+<h2>About Us </h2>
+<br>
+<p>Address:</p>
+<p>Service</p>
+<p>Customer</p>
+
+</div>
+
+
+
+<div class="footertext">
+<h2>Contact Us</h2>
+<br>
+<p></p>
+<p></p>
+<p></p>
+
+</div>
+
+<div class="footertext">
+<h2>Categories</h2>
+<br>
+<p></p>
+<p></p>
+<p></p>
+
+</div>
+
+</div>
+
+
+
+</body>
+
+<!-- 2 -->
+
+
+<!doctype html>
+<html>
+<head>
+<title>Electromart</title>
+<style>
+*{
+margin:0%;
+padding:0%;
+font-family:'Roboto','sans-serif';
+}
+
+body
+{
+Background-color:#eeee;
+}
+nav{
+display:flex;
+justify-content:Space-between;
+background-color:#eeee;
+padding:25px;
+box-shadow:0px 0px 2px 0px rgb(181,179,179);
+}
+body
+{
+}
+ul
+{margin-right:45px;
+}
+nav ul li{
+	list-style:none;
+}
+nav ul li a{
+margin-inline:25px;
+font-size:20px;
+}
+ul li img{
+height:25px;
+}
+nav .logo{
+margin-left:22px;
+font-size:23px;
+font-family:'Roboto';
+}
+
+ul li #home{
+color:rgb(5,167,167);
+}
+ul li #As{
+color:rgb(5,167,167);
+}
+ul li #Cs{
+color:rgb(5,167,167);
+}
+ul li #cat{
+color:rgb(5,167,167);
+}
+ul li a:hover{
+border-bottom:2px solid black;
+cursor:pointer;
+}
+ul li img
+{
+color:grey;
+cursor:pointer;
+}
+
+.c2{
+display:flex;
+justify-content:space-between;
+}
+
+.catt{
+text-align:center;
+
+}
+.categories
+{
+padding:10px 10px 10px 10px;
+display:flex;
+justify-content:space-between;
+}
+
+
+.cat2
+{
+padding:10px 10px 10px 10px;
+display:flex;
+justify-content:space-between;
+}
+
+.box
+{
+width:355px;
+padding:10px 10px 10px 10px;
+border: 5px solid grey;
+margin:0;
+}
+.box h3
+{
+text-align:center;
+}
+
+
+.footer
+{
+display:flex;
+justify-content:space-around;
+Background-color:rgb(3,167,167);
+}
+
+</style>
+
+</head>
+<body>
+<nav>
+<div class="logo">
+	<h1>Electromart</h1>
+</div>
+
+<ul>
+<li>
+<div>
+<a id="home" href="index.html">Home</a>
+<a id="cat" href="categories.html">Categories</a>
+<a id="As">About us</a>
+<a id="Cs">Contact us</a>
+<img src="https://cdn-icons-png.flaticon.com/512/3737/3737372.png " alt="" height="15"></img>
+</li>
+</ul>
+</nav>
+
+<br>
+<br>
+<div class="catt">
+<h1>Categories</h1>
+</div>
+<br>
+<br>
+<div class="categories">
+<div class="box">
+<img src="https://www.zdnet.com/a/img/resize/a599efb452885d4f668855aea18aae668867a960/2023/02/06/10e9ac75-29ce-4e6c-b2fb-8df48e1e40b0/oneplus-11-never-settle.jpg?auto=webp&fit=crop&height=900&width=1200" alt="" height="300" width="350">
+<h3 class="head">Smartphones</h3>
+</div>
+<br>
+<div class="box">
+<img src="https://images.samsung.com/is/image/samsung/in-full-hd-tv-te50fa-ua43te50fakxxl-frontblack-231881877?$650_519_PNG$" alt="" height="300" width="350">
+<h3 class="head">Smart Tv</h3>
+
+</div>
+
+<br>
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjozpRVFQEd5f7GUnCy9W3LlL_d2ZWJMGR4g&usqp=CAU" alt="" height="300" width="350">
+<h3 class="head">Refrigerator</h3>
+</div>
+
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="cat2">
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZG62KZAx9cbYuFEZF9d_tiYSuwMq5RSOLGSi0KfPgmA&s" alt="" height="300" width="350">
+<h3 class="head">Headphones</h3>
+
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsTG8usbin3eqYlYWZ5poK-c_qhvFcvCJ9JIVA7Y4E287G5esvgQpMsTsnG_4SalybQYk&usqp=CAU" alt="" height="300" width="350">
+<h3 class="head">Laptops</h3>
+
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6heDF3dHhK6vKyNW1j1BWxsrtus1Ja-kylA&usqp=CAU" alt="" height="300" width="350">
+<h3 class="head">Washing Machine</h3>
+
+</div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<!--footer-->
+
+<div class="footer">
+<div class="footertext">
+<h2>Electromart</h2>
+<br>
+<p>Service</p>
+<p>Customers</p>
+<p>Feedback</p>
+
+</div>
+
+
+<div class="footertext">
+<h2>About Us </h2>
+<br>
+<p>Address:</p>
+<p>Service</p>
+<p>Customer</p>
+
+</div>
+
+
+
+<div class="footertext">
+<h2>Contact Us</h2>
+<br>
+<p></p>
+<p></p>
+<p></p>
+
+</div>
+
+<div class="footertext">
+<h2>Categories</h2>
+<br>
+<p></p>
+<p></p>
+<p></p>
+
+</div>
+
+</div>
+
+
+
+</body>
+
+
+
